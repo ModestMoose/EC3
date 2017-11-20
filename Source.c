@@ -19,14 +19,13 @@ int main() {
 		exit(101);
 	}
 
-	
-	//get one number from file and save it as a float
-	fscanf(inFile, "%f", &numfloat);
+	//get one number from file and save it as an integer
+	fscanf(inFile, "%d", &numint);
 
-	//print float to STDOut
-	printf("%f\n", numfloat);
-	
+	//print integer to STDOUT
+	printf("%d\n", numint);
 
+	
 	//close the file
 	fclose (inFile);
 	
